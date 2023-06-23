@@ -178,7 +178,7 @@ invoice_schema = Object(
 invoice_chain = create_extraction_chain(llm, invoice_schema, encoder_or_encoder_class="json")
 
 # Processed text containing the invoice information
-processed_text = '''SAMPLE INVOICE GPT Solutions 123 Marvel Street Los Angeles, CA, 90007 kaushik.shakkari@gmail.com 213–7654–9876 05/14/2023 INV-28913 <Payment terms (due on receipt, due in X days)> BILL TO Pepper Potts Stark Industries SHIP TO Happy Hogan Stark Industries Robo Street, Malibu, CA 90265 Iron Street, Malibu, CA 90265 213–546–3610 123–456–3601 DESCRIPTION QTY UNIT PRICE TOTAL Lambda Scalar 4U AMD GLU 16‑inch MacBook Pro — Space Gray 12.99 inch iPad Pro 2nd generation Apple Pencil Space Gray AirPods Max Service Fee Remarks / Payment Instructions: 1 2 2 1 1 1 $160,090.00 $160,090.00 $3,500.00 $1,200.00 $130.00 $550.00 250.00 $7,000.00 $2400.00 $130.00 $550.00 $250.00 SUBTOTAL $170420.00 DISCOUNT TAX RATE LABOR FEE SHIPPING/HANDLING 0.00 10.00% $0.0 100.00 Balance Due $187562.00'''
+processed_text = '''<ENTER THE TEXT>'''
 
 # Predict and parse the invoice information from the processed text using the extraction chain
 invoice_data = invoice_chain.predict_and_parse(text=processed_text)['data']
