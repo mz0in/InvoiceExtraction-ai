@@ -1,0 +1,80 @@
+{
+  "invoice_information": [
+    {
+      "invoice_number_extraction": {
+        "invoice_number": "FHGV3452RG3"
+      }
+    },
+    {
+      "date_extraction": {
+        "date": "20th Jan 2023"
+      }
+    },
+    {
+      "billing_address": [
+        {
+          "name": "GPT Solutions",
+          "address_line": "123 Marvel Street",
+          "city": "Los Angeles",
+          "state_province_code": "CA",
+          "postal_code": "90007"
+        }
+      ]
+    },
+    {
+      "bill": [
+        {
+          "product_description": "Lambda Scalar 4U AMD GLU",
+          "count": 1,
+          "unit_item_price": 160090,
+          "product_total_price": 160090
+        },
+        {
+          "product_description": "16-inch MacBook Pro \\u2014 Space Gray",
+          "count": 1,
+          "unit_item_price": 160090,
+          "product_total_price": 160090
+        },
+        {
+          "product_description": "12.99 inch iPad Pro 2nd generation",
+          "count": 2,
+          "unit_item_price": 1750,
+          "product_total_price": 3500
+        },
+        {
+          "product_description": "Apple Pencil Space Gray",
+          "count": 1,
+          "unit_item_price": 1200,
+          "product_total_price": 1200
+        },
+        {
+          "product_description": "AirPods Max",
+          "count": 1,
+          "unit_item_price": 130,
+          "product_total_price": 130
+        },
+        {
+          "product_description": "Service Fee",
+          "count": 1,
+          "unit_item_price": 550,
+          "product_total_price": 550
+        },
+        {
+          "product_description": "Remarks / Payment Instructions:",
+          "count": 1,
+          "unit_item_price": 250,
+          "product_total_price": 250
+        }
+      ]
+    },
+    {
+      "total_bill": {
+        "total": 170420,
+        "discount_amount": 0,
+        "tax_amount": 17042,
+        "delivery_charges": 100,
+        "final_total": 187562
+      }
+    }
+  ]
+}
